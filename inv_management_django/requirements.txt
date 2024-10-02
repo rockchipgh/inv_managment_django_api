@@ -1,0 +1,19 @@
+# Django framework and Django Rest Framework for building the API
+Django>=4.0,<5.0
+djangorestframework>=3.12,<4.0
+
+# PostgreSQL Database Driver
+psycopg2>=2.9.1
+
+# Redis caching for Django
+django-redis>=5.0.0
+redis>=4.0.0
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.0.0
+
+# Unit testing
+coverage>=6.0
+
+# Optional: To make requests within tests or external services
+requests>=2.26.0
