@@ -1,0 +1,1349 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates with glob **/*.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\locale with glob **/*.mo.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale with glob **/*.mo.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale with glob **/*.mo.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\locale with glob **/*.mo.
+Watching dir C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\locale with glob **/*.mo.
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1727854921.4864638
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\collections\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\queue.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\connection.py first seen with mtime 1727854916.3485463
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\errors.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1727854921.2403815
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1727854921.3384347
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admindocs\__init__.py first seen with mtime 1727854918.6843963
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1727854921.3462434
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\base64mime.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\charset.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admindocs\utils.py first seen with mtime 1727854918.6873927
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\conf.py first seen with mtime 1727854921.4844003
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\asgiref\local.py first seen with mtime 1727854917.7079034
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\main.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\tokens.py first seen with mtime 1727854932.8171325
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\__init__.py first seen with mtime 1727854916.3455462
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\http\server.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\locks.py first seen with mtime 1727854921.23178
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\sql.py first seen with mtime 1727854917.553118
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1727854915.8814926
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\citext.py first seen with mtime 1727854919.9941735
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1727854921.3588295
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\minidom.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\forms\__init__.py first seen with mtime 1727854919.9976954
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1727854918.100375
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1727854921.221781
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\header.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\gettext.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\json\scanner.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1727854921.0198038
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1727854918.0916872
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\resources\abc.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1727854918.8870165
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_uuid.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1727854918.0993745
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\signal.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\mail\message.py first seen with mtime 1727854921.2428024
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_text.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1727854921.475387
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\settings.py first seen with mtime 1727854931.2433374
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1727854918.891015
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_adapters.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\signals.py first seen with mtime 1727854921.2087815
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1727854921.2393758
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\utils.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1727854918.6793861
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\collections\abc.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1727854918.0959737
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1727854921.248878
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\paginator.py first seen with mtime 1727854921.2077806
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\html\parser.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_decimal.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\decorators.py first seen with mtime 1727854931.226929
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\encodings\aliases.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\signing.py first seen with mtime 1727854921.2097814
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1727854918.896527
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\http\response.py first seen with mtime 1727854921.4497976
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1727854915.8750553
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1727854919.117007
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\serializers.py first seen with mtime 1727854931.242313
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\field_mapping.py first seen with mtime 1727854931.4658327
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1727854921.282097
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\options.py first seen with mtime 1727854921.3405094
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_zoneinfo.pyd first seen with mtime 1686097896.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1727854915.8804934
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1727854921.2127805
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\text.py first seen with mtime 1727854921.509285
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1727854915.8730493
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1727854921.2237804
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1727854921.2841136
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\client.py first seen with mtime 1727854921.308697
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1727854921.23718
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\client\default.py first seen with mtime 1727854932.5432873
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\utils.py first seen with mtime 1727854915.8783026
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\result.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1727854921.496506
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\i18n.py first seen with mtime 1727854921.5193076
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1727854921.3634934
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\array.py first seen with mtime 1727854919.9931736
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\__init__.py first seen with mtime 1727854921.515864
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\operations.py first seen with mtime 1727854921.3109581
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\views.py first seen with mtime 1727854918.8975358
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\inspect.py first seen with mtime 1727854921.5020294
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\wsgiref\headers.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1727854921.522714
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1727854921.2775414
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\openapi.py first seen with mtime 1727854931.3565629
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1727854918.0983696
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1727854921.2403815
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\duration.py first seen with mtime 1727854921.4975085
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\formsets.py first seen with mtime 1727854921.3739998
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\token_blacklist\models.py first seen with mtime 1727854932.883504
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\generator.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1727854921.3671246
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1727854921.2887342
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\token.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1727854918.893017
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\hstore.py first seen with mtime 1727854919.995175
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_subprocess.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_asyncio.pyd first seen with mtime 1686097918.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1727854921.238187
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\message.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1727854921.2267802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1727854919.1208024
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1727854921.3195925
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\inspect.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\response.py first seen with mtime 1727854931.2393136
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\client\__init__.py first seen with mtime 1727854932.541288
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1727854921.327589
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1727854921.5259798
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\taskgroups.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\manage.py first seen with mtime 1727855000.9899354
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1727854921.2347808
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1727854921.2841136
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\common.py first seen with mtime 1727854921.4523964
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\re\_casefix.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\threads.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1727854921.2277796
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\urllib\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1727854921.275533
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1727854918.0926983
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1727854921.2357793
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1727854921.4694889
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\typing.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ctypes\_endian.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\getpass.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\pickle.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\forms\ranges.py first seen with mtime 1727854919.9998546
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\html.py first seen with mtime 1727854931.4679768
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\re\_constants.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\views\decorators.py first seen with mtime 1727854918.682395
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1727854919.3056526
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\choices.py first seen with mtime 1727854921.491506
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1727854915.8762965
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1727854921.471565
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1727854921.3302267
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1727854921.3302267
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\hashlib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\fields.py first seen with mtime 1727854931.2299285
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\__init__.py first seen with mtime 1727854921.4773955
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1727854921.5299785
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\operator.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1727854921.2788544
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\utils.py first seen with mtime 1727854921.4823961
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1727854921.5217137
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1727854918.6803935
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\runner.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\quoprimime.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\socketserver.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1727854921.361415
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\unicodedata.pyd first seen with mtime 1686097896.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\extensions.py first seen with mtime 1727854917.5511167
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\logging\handlers.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\errors.py first seen with mtime 1727854917.5501149
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\coreapi.py first seen with mtime 1727854931.3539736
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\models.py first seen with mtime 1727854921.3750312
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1727854918.884017
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\temp.py first seen with mtime 1727854921.2327802
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\message.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\crypto.py first seen with mtime 1727854921.492506
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\suite.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1727854921.3420866
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\client.py first seen with mtime 1727854916.3465421
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\_ipaddress.py first seen with mtime 1727854917.5371156
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\multipart.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1727854921.2522712
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_meta.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\nturl2path.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1727854921.356194
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1727854919.1158195
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\safestring.py first seen with mtime 1727854921.5082095
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\inspectors.py first seen with mtime 1727854931.3560581
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1727854915.8750553
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\__init__.py first seen with mtime 1727854932.5358088
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1727854921.3483188
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\__init__.py first seen with mtime 1727854917.5361135
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\decorators.py first seen with mtime 1727854921.496506
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\autoreload.py first seen with mtime 1727854921.4578068
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\decorators.py first seen with mtime 1727854918.8890169
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1727854921.471565
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\signals.py first seen with mtime 1727854921.4813957
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1727854921.4740126
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1727854921.195262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1727854921.5309782
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1727854915.8824923
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1727854921.5135436
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1727854921.199782
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1727854921.2187803
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1727854921.3323236
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\debug.py first seen with mtime 1727854921.518306
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\exceptions.py first seen with mtime 1727854921.2077806
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\_header_value_parser.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\socket.py first seen with mtime 1727854916.3455462
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\types.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\utils.py first seen with mtime 1727854921.3431182
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\argparse.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\wsgiref\handlers.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\renderers.py first seen with mtime 1727854931.2383142
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\socket.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1727854921.4726806
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1727854915.8794854
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1727854921.5082095
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\timezone.py first seen with mtime 1727854921.5102897
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1727854918.6773863
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1727854918.682395
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\wsgi.py first seen with mtime 1727854921.2107809
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\feedparser.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\authentication.py first seen with mtime 1727854932.8101382
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\query.py first seen with mtime 1727854921.3415577
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\_common.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1727854921.3313153
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1727854921.4905035
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\__init__.py first seen with mtime 1727854916.331032
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\encoders.py first seen with mtime 1727854916.3425474
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\validators.py first seen with mtime 1727854921.2097814
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\utils.py first seen with mtime 1727854916.3405428
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1727854921.2798612
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\dis.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\text.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1727854921.366124
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\warnings.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\decimal.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1727854921.238187
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\contextvars.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\zipfile.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\base.py first seen with mtime 1727854921.4844003
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\http\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py first seen with mtime 1727854921.4588068
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1727854918.0939682
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\resp3.py first seen with mtime 1727854916.3445463
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1727854919.9723825
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\contextlib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1727854918.0926983
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\smartif.py first seen with mtime 1727854921.464943
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\tree.py first seen with mtime 1727854921.5102897
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\metadata.py first seen with mtime 1727854931.2319305
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1727854921.1962612
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\signals.py first seen with mtime 1727854921.3426037
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\staggered.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\functional.py first seen with mtime 1727854921.499019
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\textwrap.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\__init__.py first seen with mtime 1727855000.993681
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_collections.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\generators.py first seen with mtime 1727854931.3549726
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1727854920.809386
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1727854918.6833935
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\urllib\error.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\constants.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\copy.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1727854921.4763937
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\exceptions.py first seen with mtime 1727854932.812135
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1727854921.2117803
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1727854921.4705434
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1727854921.2117803
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admindocs\views.py first seen with mtime 1727854918.6873927
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\dataclasses.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1727854917.8515089
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\__init__.py first seen with mtime 1727854932.8091345
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_itertools.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\utils.py first seen with mtime 1727854932.818133
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\images.py first seen with mtime 1727854921.2307801
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\__init__.py first seen with mtime 1727854919.9801095
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\base64.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1727854915.8804934
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\psycopg_any.py first seen with mtime 1727854921.3120584
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\utils.py first seen with mtime 1727854919.9881742
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1727854921.2247798
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1727854921.2851138
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1727854915.883493
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\shutil.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\fields.py first seen with mtime 1727854921.3729565
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\contentmanager.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1727854921.195262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\client.py first seen with mtime 1727854921.478394
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1727854921.369335
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\resources\_legacy.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\resp2.py first seen with mtime 1727854916.3445463
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\transaction.py first seen with mtime 1727854921.281066
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\html.py first seen with mtime 1727854921.478394
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\converters.py first seen with mtime 1727854921.4854598
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1727854919.9709206
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\base.py first seen with mtime 1727854916.3415432
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\platform.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1727854919.9755006
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1727854921.3651185
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1727854919.117007
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\weakref.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\subprocess.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\humanize_datetime.py first seen with mtime 1727854931.4679768
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\test\testcases.py first seen with mtime 1727854921.4823961
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\reverse.py first seen with mtime 1727854931.2403145
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1727854919.9778986
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\http\cookies.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1727854921.3572488
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\authentication.py first seen with mtime 1727854931.2239254
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1727854921.3205903
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\log.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\lzma.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1727854918.6793861
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1727854921.3671246
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\generics.py first seen with mtime 1727854931.2309287
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\http\__init__.py first seen with mtime 1727854921.4465249
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1727854921.4945064
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1727854918.6783843
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1727854921.4955058
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1727854918.890018
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\backends\base.py first seen with mtime 1727854921.466944
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_hashlib.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\__init__.py first seen with mtime 1727854917.8483005
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1727854921.460942
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\trsock.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\datetime.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1727854921.3366485
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1727854921.3520234
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\forms.py first seen with mtime 1727854921.3734758
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\quopri.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\apps\registry.py first seen with mtime 1727854917.8515089
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\string.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\mock.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\database.py first seen with mtime 1727854921.2207806
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\bz2.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\protocols.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\formatting.py first seen with mtime 1727854931.466959
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\uuid.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1727854920.8068364
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1727854915.8844934
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1727854919.1184688
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\html\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1727854918.0916872
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\__init__.py first seen with mtime 1727854921.2798612
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\renderers.py first seen with mtime 1727854921.3755481
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1727854921.2745335
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\concurrent\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\resources\_common.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\utils.py first seen with mtime 1727854921.282097
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1727854918.0959737
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1727854921.3498673
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\security.py first seen with mtime 1727854921.4558072
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\shortcuts.py first seen with mtime 1727854917.8494966
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\headerregistry.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_ssl.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\encodings\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\__init__.py first seen with mtime 1727854919.9921749
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\timesince.py first seen with mtime 1727854921.509285
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1727854918.893017
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1727854915.8762965
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\nonmultipart.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\utils.py first seen with mtime 1727854919.9971886
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\_policybase.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\conf\__init__.py first seen with mtime 1727854917.8515089
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\_compression.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1727854921.3289363
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\__init__.py first seen with mtime 1727854931.2219253
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1727854917.8562944
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\reprlib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\base.py first seen with mtime 1727854921.308697
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\mixins.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\json.py first seen with mtime 1727854931.4689784
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1727854921.2287798
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\pkgutil.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1727854921.5050297
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\xmlbuilder.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\http\cookie.py first seen with mtime 1727854921.4476583
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_overlapped.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\wsgiref\util.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1727854921.3457227
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\resources\_adapters.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\copyreg.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\engine.py first seen with mtime 1727854921.4619424
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\version.py first seen with mtime 1727854921.511294
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1727854915.8794854
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\backoff.py first seen with mtime 1727854916.3315358
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\encodings\utf_8.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1727854921.2247798
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\search.py first seen with mtime 1727854919.9861753
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\cache.py first seen with mtime 1727854932.537869
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1727854919.9723825
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1727854919.1184688
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1727854921.233779
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1727854921.0148036
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1727854918.090246
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\exceptions.py first seen with mtime 1727854932.537869
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1727854921.4497976
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1727854921.5135436
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\library.py first seen with mtime 1727854921.462944
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\introspection.py first seen with mtime 1727854921.3109581
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1727854918.0939682
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\opcode.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\status.py first seen with mtime 1727854931.2433374
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\gzip.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1727854920.8056636
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\numbers.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\model_meta.py first seen with mtime 1727854931.4709775
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\backends\django.py first seen with mtime 1727854921.466944
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1727854921.1962612
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\mediatypes.py first seen with mtime 1727854931.4699774
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1727854921.4534087
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\response.py first seen with mtime 1727854921.464943
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\context.py first seen with mtime 1727854921.4599352
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\compat.py first seen with mtime 1727854931.2259274
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1727854921.020806
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\_encoded_words.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1727854921.4639432
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\abc.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1727854920.8114617
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1727854921.202783
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\_parseaddr.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1727854921.2157803
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\base.py first seen with mtime 1727854921.2297802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1727854921.4740126
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\forms\array.py first seen with mtime 1727854919.998845
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\encoders.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_queue.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\metadata\_functools.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1727854919.9744945
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\constants.py first seen with mtime 1727854921.3344624
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\tempfile.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\move.py first seen with mtime 1727854921.23178
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1727854921.23718
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\threading.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1727854918.8860216
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\breadcrumbs.py first seen with mtime 1727854931.4635994
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\exceptions.py first seen with mtime 1727854916.335544
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\representation.py first seen with mtime 1727854931.471977
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\wsgiref\simple_server.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1727854921.2187803
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1727854921.344671
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1727854921.5072036
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\selectors.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1727854921.3684456
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\token_blacklist\__init__.py first seen with mtime 1727854932.880507
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\NodeFilter.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\traceback.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1727854918.6813886
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1727854921.1972616
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1727854921.199782
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\resources\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\select.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1727854921.4894986
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1727854921.2887342
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1727854915.8844934
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\enum.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1727854921.2197804
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\apps.py first seen with mtime 1727854931.222924
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\exceptions.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\_tzpath.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\ranges.py first seen with mtime 1727854919.996187
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\exceptions.py first seen with mtime 1727854921.4619424
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1727854917.7069037
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\__init__.py first seen with mtime 1727854921.4833963
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1727854918.8950148
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\hashable.py first seen with mtime 1727854921.5000305
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1727854921.3265896
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1727854921.3478036
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\__init__.py first seen with mtime 1727854921.4568076
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\utils.py first seen with mtime 1727854921.4874673
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\utils.py first seen with mtime 1727854921.4659436
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\signals.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\hmac.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\commands.py first seen with mtime 1727854916.3415432
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\glob.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\mixins.py first seen with mtime 1727854931.2329273
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\cache.py first seen with mtime 1727854921.4905035
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\connection.py first seen with mtime 1727854921.491506
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\functools.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\heapq.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\apps\__init__.py first seen with mtime 1727854917.8505037
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_ctypes.pyd first seen with mtime 1686097896.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_bz2.pyd first seen with mtime 1686097896.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1727854920.8068364
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1727854915.877303
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1727854921.2267802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1727854921.22278
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\enums.py first seen with mtime 1727854921.3366485
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\parsers.py first seen with mtime 1727854931.23508
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\base.py first seen with mtime 1727854921.248878
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\urls.py first seen with mtime 1727854931.474977
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\__init__.py first seen with mtime 1727854921.4874673
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1727854918.884017
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\typing.py first seen with mtime 1727854916.339544
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\validators.py first seen with mtime 1727854919.9891748
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\widgets.py first seen with mtime 1727854921.3765914
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\fnmatch.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1727854921.2851138
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\keyword.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\views.py first seen with mtime 1727855318.1495328
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1727854921.3504732
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\__init__.py first seen with mtime 1727854921.3714094
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1727854921.371919
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1727854921.3313153
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\secrets.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1727854921.2137802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\hiredis.py first seen with mtime 1727854916.3435438
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\_markupbase.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\loader.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\difflib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\forms\utils.py first seen with mtime 1727854921.3760695
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1727854921.3441565
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1727854919.9733937
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\random.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1727854921.2007806
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\http.py first seen with mtime 1727854921.501029
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1727854921.286341
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1727854921.3394628
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\__init__.py first seen with mtime 1727854916.3405428
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1727854921.276542
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\static.py first seen with mtime 1727854921.5193076
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\views.py first seen with mtime 1727854932.819135
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1727854919.1025634
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1727854919.1148126
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\http\request.py first seen with mtime 1727854921.4487717
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1727854920.8083773
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\dates.py first seen with mtime 1727854921.4945064
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1727854921.33547
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1727854921.2413883
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\apps\config.py first seen with mtime 1727854917.8505037
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\urllib\response.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1727854919.9768934
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\_parsers\helpers.py first seen with mtime 1727854916.3435438
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1727854921.287406
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ast.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1727854921.5061715
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1727854921.233779
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1727854918.6763923
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\minicompat.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\locale.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1727854921.4659436
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1727854921.2267802
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_tasks.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1727854918.8940167
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templatetags\rest_framework.py first seen with mtime 1727854931.4625993
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\color.py first seen with mtime 1727854921.2498777
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\urls.py first seen with mtime 1727855379.02364
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\base.py first seen with mtime 1727854921.5299785
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loader.py first seen with mtime 1727854921.4639432
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\sysconfig.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\sql.py first seen with mtime 1727854921.2498777
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\domreg.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1727854921.2357793
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\timeouts.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1727854915.8824923
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\log.py first seen with mtime 1727854921.5050297
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ctypes\wintypes.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\xml\dom\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1727854921.5072036
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1727854918.885017
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\formats.py first seen with mtime 1727854921.499019
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1727854918.0972543
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\exceptions.py first seen with mtime 1727854931.2289286
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\encoders.py first seen with mtime 1727854931.4645991
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\models.py first seen with mtime 1727855291.836169
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\mimetypes.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1727854921.4705434
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1727854921.3703673
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\files.py first seen with mtime 1727854921.2207806
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\calendar.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\checks.py first seen with mtime 1727854931.2249277
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1727854921.348837
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_lzma.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\_json.py first seen with mtime 1727854917.5371156
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\request.py first seen with mtime 1727854931.2393136
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\sql.py first seen with mtime 1727854915.877303
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templatetags\__init__.py first seen with mtime 1727854931.4615996
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\struct.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1727854918.0949736
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1727854921.2898812
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\html\entities.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\timezone.py first seen with mtime 1727854931.4739766
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1727854921.3515007
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1727854921.460942
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\models.py first seen with mtime 1727854932.813134
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\cache.py first seen with mtime 1727854921.4511993
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1727854921.22278
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1727854918.885017
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\graphlib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\lookups.py first seen with mtime 1727854919.9841652
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\__init__.py first seen with mtime 1727854921.3075035
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\manager.py first seen with mtime 1727854921.3399887
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1727854921.4935062
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\validators.py first seen with mtime 1727854931.248104
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1727854921.2831073
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1727854921.5319777
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\http\client.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\pprint.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\relations.py first seen with mtime 1727854931.237299
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1727854915.8814926
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1727854921.2017815
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\bisect.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1727854921.362459
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1727854921.2413883
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\settings.py first seen with mtime 1727858841.840692
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\DLLs\_socket.pyd first seen with mtime 1686097894.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1727854920.80787
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1727854921.24387
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\retry.py first seen with mtime 1727854916.349544
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\creation.py first seen with mtime 1727854921.3097296
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\generic\list.py first seen with mtime 1727854921.5319777
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1727854919.117007
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\_range.py first seen with mtime 1727854917.5491166
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_utils.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\importlib\_abc.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\_distutils_hack\__init__.py first seen with mtime 1727854822.5143757
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\csv.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1727854921.5207071
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\settings.py first seen with mtime 1727854932.8151348
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\logging\config.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\negotiation.py first seen with mtime 1727854931.2329273
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\_os.py first seen with mtime 1727854921.488471
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\views.py first seen with mtime 1727854931.2501135
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1727854921.2257812
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\features.py first seen with mtime 1727854921.3097296
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\serializers.py first seen with mtime 1727855305.576418
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1727854921.4864638
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\__init__.py first seen with mtime 1727854931.3529716
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\serializer_helpers.py first seen with mtime 1727854931.4729774
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\wsgiref\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\unittest\util.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\schemas\utils.py first seen with mtime 1727854931.3575683
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1727854918.891015
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\permissions.py first seen with mtime 1727854931.2362201
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\format_helpers.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1727854921.291175
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1727854921.337653
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1727854921.5207071
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1727854921.3235884
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1727854921.3467612
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\policy.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\asgiref\__init__.py first seen with mtime 1727854917.7059038
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\pathlib.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\linecache.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1727854921.5020294
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\parser.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\tokenize.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1727854921.3333254
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\_psycopg.cp311-win_amd64.pyd first seen with mtime 1727854917.5481124
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1727854921.4476583
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1727854920.8114617
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_futures.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1727854921.2297802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\base.py first seen with mtime 1727854921.3344624
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1727854921.515864
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1727854921.522714
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\sqlparse\cli.py first seen with mtime 1727854915.8740554
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\psycopg2\extras.py first seen with mtime 1727854917.552114
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\html.py first seen with mtime 1727854921.501029
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\base.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\files\utils.py first seen with mtime 1727854921.2347808
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\asgiref\sync.py first seen with mtime 1727854917.7089036
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\forms\hstore.py first seen with mtime 1727854919.998845
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1727854921.286341
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\encoding.py first seen with mtime 1727854921.4975085
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\iterators.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\asyncio\selector_events.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\templatetags\static.py first seen with mtime 1727854921.4763937
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1727854921.4935062
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\utils\__init__.py first seen with mtime 1727854931.4625993
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ssl.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\postgres\fields\jsonb.py first seen with mtime 1727854919.995175
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1727854921.266996
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\ctypes\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\email\mime\__init__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\_compat_pickle.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\__init__.py first seen with mtime 1727854921.2057805
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\backends\postgresql\schema.py first seen with mtime 1727854921.3120584
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework first seen with mtime 1727854931.4505622
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin first seen with mtime 1727854931.411625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin.html first seen with mtime 1727854931.402575
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\api.html first seen with mtime 1727854931.4035766
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\base.html first seen with mtime 1727854931.4045753
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs first seen with mtime 1727854931.4206262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\filters first seen with mtime 1727854931.4276257
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal first seen with mtime 1727854931.437988
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline first seen with mtime 1727854931.4475625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\login.html first seen with mtime 1727854931.4045753
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\login_base.html first seen with mtime 1727854931.4060802
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\pagination first seen with mtime 1727854931.4495625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\raw_data_form.html first seen with mtime 1727854931.4071138
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\schema.js first seen with mtime 1727854931.4076192
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical first seen with mtime 1727854931.4606006
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin\detail.html first seen with mtime 1727854931.4086244
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin\dict_value.html first seen with mtime 1727854931.4096239
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin\list.html first seen with mtime 1727854931.4106262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin\list_value.html first seen with mtime 1727854931.411625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\admin\simple_list_value.html first seen with mtime 1727854931.4126267
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\auth first seen with mtime 1727854931.4206262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\document.html first seen with mtime 1727854931.413625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\error.html first seen with mtime 1727854931.413625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\index.html first seen with mtime 1727854931.4146254
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\interact.html first seen with mtime 1727854931.4156256
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs first seen with mtime 1727854931.4256253
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\link.html first seen with mtime 1727854931.4166262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\sidebar.html first seen with mtime 1727854931.417626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\auth\basic.html first seen with mtime 1727854931.4186256
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\auth\session.html first seen with mtime 1727854931.419626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\auth\token.html first seen with mtime 1727854931.4206262
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\javascript-intro.html first seen with mtime 1727854931.421626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\javascript.html first seen with mtime 1727854931.4226265
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\python-intro.html first seen with mtime 1727854931.4226265
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\python.html first seen with mtime 1727854931.423626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\shell-intro.html first seen with mtime 1727854931.4246259
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\docs\langs\shell.html first seen with mtime 1727854931.4256253
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\filters\base.html first seen with mtime 1727854931.426626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\filters\ordering.html first seen with mtime 1727854931.426626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\filters\search.html first seen with mtime 1727854931.4276257
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\checkbox.html first seen with mtime 1727854931.428625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\checkbox_multiple.html first seen with mtime 1727854931.429625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\dict_field.html first seen with mtime 1727854931.4306276
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\fieldset.html first seen with mtime 1727854931.4316318
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\form.html first seen with mtime 1727854931.432625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\input.html first seen with mtime 1727854931.432625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\list_field.html first seen with mtime 1727854931.43363
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\list_fieldset.html first seen with mtime 1727854931.4346328
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\radio.html first seen with mtime 1727854931.4356282
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\select.html first seen with mtime 1727854931.4367073
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\select_multiple.html first seen with mtime 1727854931.4367073
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\horizontal\textarea.html first seen with mtime 1727854931.4384928
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\checkbox.html first seen with mtime 1727854931.4384928
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\checkbox_multiple.html first seen with mtime 1727854931.4394991
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\dict_field.html first seen with mtime 1727854931.4404988
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\fieldset.html first seen with mtime 1727854931.4404988
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\form.html first seen with mtime 1727854931.4415007
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\input.html first seen with mtime 1727854931.4425
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\list_field.html first seen with mtime 1727854931.4435003
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\list_fieldset.html first seen with mtime 1727854931.4444993
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\radio.html first seen with mtime 1727854931.4455564
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\select.html first seen with mtime 1727854931.446563
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\select_multiple.html first seen with mtime 1727854931.4475625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\inline\textarea.html first seen with mtime 1727854931.4485626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\pagination\numbers.html first seen with mtime 1727854931.4495625
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\pagination\previous_and_next.html first seen with mtime 1727854931.4505622
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\checkbox.html first seen with mtime 1727854931.4505622
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\checkbox_multiple.html first seen with mtime 1727854931.4515624
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\dict_field.html first seen with mtime 1727854931.4525626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\fieldset.html first seen with mtime 1727854931.4535623
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\form.html first seen with mtime 1727854931.454599
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\input.html first seen with mtime 1727854931.454599
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\list_field.html first seen with mtime 1727854931.4555986
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\list_fieldset.html first seen with mtime 1727854931.4565995
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\radio.html first seen with mtime 1727854931.4575996
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\select.html first seen with mtime 1727854931.4585996
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\select_multiple.html first seen with mtime 1727854931.4596007
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\templates\rest_framework\vertical\textarea.html first seen with mtime 1727854931.4606006
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ach\LC_MESSAGES\django.mo first seen with mtime 1727854931.2691092
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1727854931.2701106
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\az\LC_MESSAGES\django.mo first seen with mtime 1727854931.2721093
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\be\LC_MESSAGES\django.mo first seen with mtime 1727854931.2731092
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\bg\LC_MESSAGES\django.mo first seen with mtime 1727854931.2741094
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ca\LC_MESSAGES\django.mo first seen with mtime 1727854931.276111
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ca_ES\LC_MESSAGES\django.mo first seen with mtime 1727854931.2771094
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1727854931.2781105
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\da\LC_MESSAGES\django.mo first seen with mtime 1727854931.2801113
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\de\LC_MESSAGES\django.mo first seen with mtime 1727854931.2811093
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\el\LC_MESSAGES\django.mo first seen with mtime 1727854931.2821114
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\el_GR\LC_MESSAGES\django.mo first seen with mtime 1727854931.2841122
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\en\LC_MESSAGES\django.mo first seen with mtime 1727854931.2851114
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\en_AU\LC_MESSAGES\django.mo first seen with mtime 1727854931.2861104
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\en_CA\LC_MESSAGES\django.mo first seen with mtime 1727854931.2871108
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\en_US\LC_MESSAGES\django.mo first seen with mtime 1727854931.292694
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\es\LC_MESSAGES\django.mo first seen with mtime 1727854931.2937012
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\et\LC_MESSAGES\django.mo first seen with mtime 1727854931.2957003
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1727854931.2966993
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\fa_IR\LC_MESSAGES\django.mo first seen with mtime 1727854931.2976992
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\fi\LC_MESSAGES\django.mo first seen with mtime 1727854931.2996998
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1727854931.3007014
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\fr_CA\LC_MESSAGES\django.mo first seen with mtime 1727854931.3016994
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\gl\LC_MESSAGES\django.mo first seen with mtime 1727854931.3036995
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\gl_ES\LC_MESSAGES\django.mo first seen with mtime 1727854931.3046997
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\he_IL\LC_MESSAGES\django.mo first seen with mtime 1727854931.3062038
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\hu\LC_MESSAGES\django.mo first seen with mtime 1727854931.3072124
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\hy\LC_MESSAGES\django.mo first seen with mtime 1727854931.308211
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\id\LC_MESSAGES\django.mo first seen with mtime 1727854931.3092103
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\it\LC_MESSAGES\django.mo first seen with mtime 1727854931.3112106
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ja\LC_MESSAGES\django.mo first seen with mtime 1727854931.3122113
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ko_KR\LC_MESSAGES\django.mo first seen with mtime 1727854931.3132143
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\lt\LC_MESSAGES\django.mo first seen with mtime 1727854931.3152127
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\lv\LC_MESSAGES\django.mo first seen with mtime 1727854931.3162096
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\mk\LC_MESSAGES\django.mo first seen with mtime 1727854931.3172095
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\nb\LC_MESSAGES\django.mo first seen with mtime 1727854931.3192096
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ne_NP\LC_MESSAGES\django.mo first seen with mtime 1727854931.3202093
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\nl\LC_MESSAGES\django.mo first seen with mtime 1727854931.3212094
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\nn\LC_MESSAGES\django.mo first seen with mtime 1727854931.3222096
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\no\LC_MESSAGES\django.mo first seen with mtime 1727854931.32321
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\pl\LC_MESSAGES\django.mo first seen with mtime 1727854931.325213
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\pt\LC_MESSAGES\django.mo first seen with mtime 1727854931.3262124
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1727854931.3282108
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\pt_PT\LC_MESSAGES\django.mo first seen with mtime 1727854931.3292134
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1727854931.3302114
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ru\LC_MESSAGES\django.mo first seen with mtime 1727854931.3312123
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\ru_RU\LC_MESSAGES\django.mo first seen with mtime 1727854931.333211
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\sk\LC_MESSAGES\django.mo first seen with mtime 1727854931.334211
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1727854931.33621
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1727854931.3372092
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\th\LC_MESSAGES\django.mo first seen with mtime 1727854931.3382113
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1727854931.3403137
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\tr_TR\LC_MESSAGES\django.mo first seen with mtime 1727854931.3414617
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\uk\LC_MESSAGES\django.mo first seen with mtime 1727854931.3429716
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\vi\LC_MESSAGES\django.mo first seen with mtime 1727854931.3439717
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\zh_CN\LC_MESSAGES\django.mo first seen with mtime 1727854931.344971
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1727854931.3469713
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\zh_Hant\LC_MESSAGES\django.mo first seen with mtime 1727854931.3479714
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework\locale\zh_TW\LC_MESSAGES\django.mo first seen with mtime 1727854931.348971
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\ar\LC_MESSAGES\django.mo first seen with mtime 1727854932.8211353
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\cs\LC_MESSAGES\django.mo first seen with mtime 1727854932.8231344
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\de\LC_MESSAGES\django.mo first seen with mtime 1727854932.8265588
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\es\LC_MESSAGES\django.mo first seen with mtime 1727854932.82904
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\es_AR\LC_MESSAGES\django.mo first seen with mtime 1727854932.8309686
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\es_CL\LC_MESSAGES\django.mo first seen with mtime 1727854932.8329782
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\fa\LC_MESSAGES\django.mo first seen with mtime 1727854932.8359737
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\fa_IR\LC_MESSAGES\django.mo first seen with mtime 1727854932.838974
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\fr\LC_MESSAGES\django.mo first seen with mtime 1727854932.841557
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\he_IL\LC_MESSAGES\django.mo first seen with mtime 1727854932.8435626
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\id_ID\LC_MESSAGES\django.mo first seen with mtime 1727854932.8455632
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\it_IT\LC_MESSAGES\django.mo first seen with mtime 1727854932.8485615
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\ko_KR\LC_MESSAGES\django.mo first seen with mtime 1727854932.8505638
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\nl_NL\LC_MESSAGES\django.mo first seen with mtime 1727854932.853333
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\pl_PL\LC_MESSAGES\django.mo first seen with mtime 1727854932.8553383
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\pt_BR\LC_MESSAGES\django.mo first seen with mtime 1727854932.8580284
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\ro\LC_MESSAGES\django.mo first seen with mtime 1727854932.8602085
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\ru_RU\LC_MESSAGES\django.mo first seen with mtime 1727854932.8632169
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\sl\LC_MESSAGES\django.mo first seen with mtime 1727854932.86522
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\sv\LC_MESSAGES\django.mo first seen with mtime 1727854932.8672247
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\tr\LC_MESSAGES\django.mo first seen with mtime 1727854932.8704145
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\uk_UA\LC_MESSAGES\django.mo first seen with mtime 1727854932.876504
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\locale\zh_Hans\LC_MESSAGES\django.mo first seen with mtime 1727854932.8795047
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1727854919.1124258
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1727854918.5364103
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1727854919.1124258
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\utils.py first seen with mtime 1727854916.3505428
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\crc.py first seen with mtime 1727854916.3345442
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1727854919.1079662
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\csrf.py first seen with mtime 1727854921.5173006
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1727854919.3097074
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\encodings\idna.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1727854920.8138769
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\client\sharded.py first seen with mtime 1727854932.5442863
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1727854918.5364103
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\retry.py first seen with mtime 1727854916.338545
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1727854919.1099663
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\__init__.py first seen with mtime 1727854916.3515444
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\helpers.py first seen with mtime 1727854916.3535423
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\core.py first seen with mtime 1727854916.3535423
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\lock.py first seen with mtime 1727854916.3485463
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\pool.py first seen with mtime 1727854932.540285
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1727854921.3225894
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1727854919.1109655
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1727854918.5354118
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1727854919.1069653
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\sentinel.py first seen with mtime 1727854916.3505428
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\connection.py first seen with mtime 1727854916.3345442
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\asyncio\cluster.py first seen with mtime 1727854916.3475432
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\models\sql\compiler.py first seen with mtime 1727854921.364614
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1727854921.3255901
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\stringprep.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\client\sentinel.py first seen with mtime 1727854932.5442863
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1727854919.3086565
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1727854918.5344138
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1727854919.3097074
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\sentinel.py first seen with mtime 1727854916.354874
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\cluster.py first seen with mtime 1727854916.3515444
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1727854919.1059663
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\client.py first seen with mtime 1727854916.3325424
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1727854919.1109655
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\lock.py first seen with mtime 1727854916.3365436
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1727854919.1099663
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\sentinel.py first seen with mtime 1727854916.338545
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\commands\redismodules.py first seen with mtime 1727854916.3535423
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\cache.py first seen with mtime 1727854916.3315358
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\cluster.py first seen with mtime 1727854916.3335452
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1727854921.4511993
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1727854921.3215902
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1727854919.1069653
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\views\defaults.py first seen with mtime 1727854921.518306
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\inv_management_django\inv_management_django\wsgi.py first seen with mtime 1727855000.993681
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\hash_ring.py first seen with mtime 1727854932.5392745
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1727854919.1079662
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1727854918.0892372
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1727854921.3225894
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\util.py first seen with mtime 1727854932.540285
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1727854921.0118043
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1727854919.1089647
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\redis\credentials.py first seen with mtime 1727854916.335544
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1727854919.1049588
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\client\herd.py first seen with mtime 1727854932.5432873
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1727854921.0118043
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py", line 705, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLPattern 'items/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'items/1'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 883, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 899, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 906, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+"GET /items/1 HTTP/1.1" 301 0
+Unauthorized: /items/1/
+"GET /items/1/ HTTP/1.1" 401 183
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\algorithms.py first seen with mtime 1727854917.3805237
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\api_jwt.py first seen with mtime 1727854917.3825238
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\exceptions.py first seen with mtime 1727854917.3825238
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\__init__.py first seen with mtime 1727854917.3795178
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\utils.py first seen with mtime 1727854917.3865242
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1727854920.810385
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\api_jws.py first seen with mtime 1727854917.3815234
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\storage\session.py first seen with mtime 1727854919.978906
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\storage\fallback.py first seen with mtime 1727854919.978906
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\jwk_set_cache.py first seen with mtime 1727854917.384528
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\warnings.py first seen with mtime 1727854917.3865242
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\api_jwk.py first seen with mtime 1727854917.3815234
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\backends.py first seen with mtime 1727854932.811135
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1727854919.9778986
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\types.py first seen with mtime 1727854917.3855278
+File C:\Users\rohit\AppData\Local\Programs\Python\Python311\Lib\__future__.py first seen with mtime 1686097818.0
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\jwt\jwks_client.py first seen with mtime 1727854917.384528
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\state.py first seen with mtime 1727854932.8161337
+"POST /api/token/refresh/ HTTP/1.1" 200 241
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\rest_framework_simplejwt\serializers.py first seen with mtime 1727854932.8141341
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py", line 705, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLPattern 'items/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'items/1'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 883, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 899, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 906, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+"GET /items/1 HTTP/1.1" 301 0
+(0.016) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "inv_management_django_item"."id", "inv_management_django_item"."name", "inv_management_django_item"."description" FROM "inv_management_django_item" WHERE "inv_management_django_item"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /items/1/ HTTP/1.1" 200 47
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\compressors\identity.py first seen with mtime 1727854932.5479443
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\serializers\__init__.py first seen with mtime 1727854932.5519476
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\serializers\pickle.py first seen with mtime 1727854932.5559466
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\compressors\base.py first seen with mtime 1727854932.5469453
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\compressors\__init__.py first seen with mtime 1727854932.5459394
+File C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django_redis\serializers\base.py first seen with mtime 1727854932.5529478
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py", line 705, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLPattern 'items/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'items/2'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 883, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 899, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 906, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+"GET /items/2 HTTP/1.1" 301 0
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "inv_management_django_item"."id", "inv_management_django_item"."name", "inv_management_django_item"."description" FROM "inv_management_django_item" WHERE "inv_management_django_item"."id" = 2 LIMIT 21; args=(2,); alias=default
+Not Found: /items/2/
+"GET /items/2/ HTTP/1.1" 404 27
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py", line 705, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLPattern 'items/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': 'items/1'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 883, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 899, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 906, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+"GET /items/1 HTTP/1.1" 301 0
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"GET /items/1/ HTTP/1.1" 200 47
+Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\core\handlers\base.py", line 313, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\urls\resolvers.py", line 705, in resolve
+    raise Resolver404({"tried": tried, "path": new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLPattern 'items/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'items/<int:item_id>/'>], [<URLPattern 'api/token/' [name='token_obtain_pair']>], [<URLPattern 'api/token/refresh/' [name='token_refresh']>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>]], 'path': ''}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 883, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 893, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 899, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rohit\OneDrive\Desktop\code\Python\django\inv_managment_django_api\venv\Lib\site-packages\django\template\base.py", line 906, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+Not Found: /
+"GET / HTTP/1.1" 404 3190
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'admin' AND "django_content_type"."model" IN ('logentry')); args=('admin', 'logentry'); alias=default
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (1) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(1,); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'admin'; args=('admin',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'auth' AND "django_content_type"."model" IN ('user', 'permission', 'group')); args=('auth', 'user', 'permission', 'group'); alias=default
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (2, 3, 4) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(2, 3, 4); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'auth'; args=('auth',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'contenttypes' AND "django_content_type"."model" IN ('contenttype')); args=('contenttypes', 'contenttype'); alias=default
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (5) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(5,); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'contenttypes'; args=('contenttypes',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'sessions' AND "django_content_type"."model" IN ('session')); args=('sessions', 'session'); alias=default
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (6) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(6,); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'sessions'; args=('sessions',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'rest_framework_simplejwt'; args=('rest_framework_simplejwt',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'rest_framework_simplejwt'; args=('rest_framework_simplejwt',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'inv_management_django'; args=('inv_management_django',); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE ("django_content_type"."app_label" = 'inv_management_django' AND "django_content_type"."model" IN ('item')); args=('inv_management_django', 'item'); alias=default
+(0.000) SELECT "auth_permission"."content_type_id", "auth_permission"."codename" FROM "auth_permission" INNER JOIN "django_content_type" ON ("auth_permission"."content_type_id" = "django_content_type"."id") WHERE "auth_permission"."content_type_id" IN (7) ORDER BY "django_content_type"."app_label" ASC, "django_content_type"."model" ASC, "auth_permission"."codename" ASC; args=(7,); alias=default
+(0.000) SELECT "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_content_type" WHERE "django_content_type"."app_label" = 'inv_management_django'; args=('inv_management_django',); alias=default
+(0.016) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+(0.000) 
+            SELECT
+                c.relname,
+                CASE
+                    WHEN c.relispartition THEN 'p'
+                    WHEN c.relkind IN ('m', 'v') THEN 'v'
+                    ELSE 't'
+                END,
+                obj_description(c.oid, 'pg_class')
+            FROM pg_catalog.pg_class c
+            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
+            WHERE c.relkind IN ('f', 'm', 'p', 'r', 'v')
+                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
+                AND pg_catalog.pg_table_is_visible(c.oid)
+        ; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
